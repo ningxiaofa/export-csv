@@ -19,7 +19,7 @@ $.exportCSV(
 ```
 
 #### Note:
-#### You can only use the <a> tag in html.
+#### You can only use the ```<a>``` tag in html.
 	like this:
 	<a id="export_csv" style="text-decoration:none; color:black;border: solid black 1px;padding: 0 2px;" href="#">Export csv</a>
 #### For details: please see the code of these files.[THANKS] 
