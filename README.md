@@ -7,7 +7,7 @@ Jquery-based export table to csv file plug-in.
 $.exportCSV(
 	[
                 this, //Do not change
-                '.className', //Seleted table, Required, Type: string
+                '.className', //Selected table, Required, Type: string
                 number, //All columns number,  Required, Type: number
                 ['column-1-name', 'column-2-name', 'column-3-name', 'column-4-name',...], //Column names, Required, Type: array
                 'fileNamePrefix', //The download prefix name, Required, Default: 'download', Type: string
