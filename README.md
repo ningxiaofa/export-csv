@@ -1,11 +1,11 @@
-# Export_CSV
+## Export_CSV
 Jquery-based export table to csv file plug-in.
-# api document
-## Call parameters are as follows:
-## $.exportCSV Parameter: array
-## The array parameters have the following meanings:
+### api document
+#### $.exportCSV(Parameter) Parameter: array
+#### The array parameters have the following meanings:
+```
 $.exportCSV(
-		    [
+	[
                 this, //do not change
                 '.className', //seleted table required
                 number, //all columns number  required 
@@ -16,3 +16,4 @@ $.exportCSV(
                 number // The length of random digits Default: 6
         ]
 );
+```
