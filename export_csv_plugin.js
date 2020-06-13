@@ -7,7 +7,7 @@ $.extend({
     // Export csv file  Parameters: array
     exportCSV: function (arrayTable) {
         if (!Array.isArray(arrayTable)) {
-            console.log('Error: The argument must be an array !');
+            console.error('Error: The argument must be an array !');
             return;
         }
         var selector = arrayTable[0];
@@ -15,11 +15,11 @@ $.extend({
         var columns = arrayTable[2];
         var columnsArray = arrayTable[3];
         if (!Array.isArray(columnsArray)) {
-            console.log('Error: The fourth argument is not an array !');
+            console.error('Error: The fourth argument is not an array !');
             return;
         }
         if(columns !== (columnsArray.length)){
-            console.log("Error: Number of columns do not match number of columns' names !");
+            console.error("Error: Number of columns do not match number of columns' names !");
             return;
         }
         var columnNamesStr = '';
