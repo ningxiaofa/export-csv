@@ -40,7 +40,7 @@ $.extend({
         selector.href = "data:text/csv;charset=utf-8,\ufeff" + columnNamesStr + str;
         selector.download = name + seperator + nowDateTime + '.csv';
 
-        //get all data string
+        // Get all data string
         function getStr(selectTable, columns){
             var strData = '';
             var tdList = $(selectTable).find("td");
@@ -60,7 +60,7 @@ $.extend({
             return strData;
         }
 
-        //set the time format string. like: 2018_12_20-10-18-48-337619
+        // Set the time format string. like: 2018_12_20-10-18-48-337619
         function getDateTime(seperator, seperator_1, numberLength) {
             var date = new Date();
             var nowMonth = date.getMonth() + 1;
